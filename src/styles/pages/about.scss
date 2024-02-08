@@ -1,6 +1,10 @@
 .about_container {
     padding-top: 100px;
     margin-bottom: 50px;
+    .about_background {
+        position: relative;
+        z-index: -1;
+    }
 
     .about_title_wrapper {
         display: flex;

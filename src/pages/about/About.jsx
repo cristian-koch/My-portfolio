@@ -6,7 +6,10 @@ import { Container } from '../../components/components.styles';
 import { Title, Paragraph } from './About.styles';
 
 // import image
-// import BackgroundCircle from '../../assets/img/first-circle-background.svg';
+import BackgroundCircle from '../../assets/img/first-circle-background.svg';
+
+// import components
+import Icon from '../../components/iconImage/Icon';
 
 
 function About () {
@@ -14,6 +17,9 @@ function About () {
     return (
        <Container>
             <div id="about" className="about_container">
+                <div className="about_background">
+                    <Icon src={BackgroundCircle} maxWidth="370px" width="100%" position="absolute" top="20px" left="-200px" />
+                </div>
                 <div className="about_title_wrapper">
                     <Title>Sobre mim</Title>
                 </div>

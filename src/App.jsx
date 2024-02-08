@@ -10,6 +10,7 @@ import Profile from './pages/profile/Profile.jsx';
 import Learning from './pages/learning/Learning.jsx';
 import Projects from './pages/projects/Projects.jsx';
 import About from './pages/about/About.jsx';
+import Footer from './pages/footer/Footer.jsx';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Learning />
         <Projects />
         <About />
+        <Footer />
       </PageContainer>
     </div>
   );
