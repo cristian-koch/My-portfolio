@@ -1,0 +1,51 @@
+.profile_link {
+    padding-top: 150px;
+}
+
+.profile_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+    .profile_content_wrapper {
+        max-width: 500px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .profile_skills_wrapper {
+            display: flex;
+            gap: 20px;
+            margin-top: 15px;
+
+            .profile_skills_wrapper_icon {
+                display: flex;
+                align-items: flex-end;
+                gap: 10px;
+
+                .profile_skills_text {
+                    width: 100px;
+                    display: block;
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #E9E9E9;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+.background_image_circle_wrapper {
+    position: relative;
+
+    .first_background_circle {
+        position: absolute;
+        z-index: -1;
+        width: 370px;
+        height: auto;
+        top: -30px;
+        left: -220px;
+    }
+}

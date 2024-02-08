@@ -4,6 +4,7 @@ import { styled } from 'styled-components';
 export const PageContainer = styled.div`
   max-width: 1920px;
   margin: 0 auto;
+  overflow: hidden;
 `;
 
 export const Container = styled.div`

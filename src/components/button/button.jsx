@@ -1,9 +1,10 @@
 // import components styles
-import { ButtonLink } from './button.styles';
+import { ButtonLink } from './Button.styles';
 
-function Button ({link, text, background}) {
+function Button ({ link, text, background, padding }) {
+
   return (
-    <ButtonLink href={link} className="button" backgroundColor={background}>{text}</ButtonLink>
+    <ButtonLink href={link} className="button" backgroundColor={background} padding={padding}>{text}</ButtonLink>
   );
 }
 

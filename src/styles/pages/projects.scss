@@ -1,0 +1,41 @@
+.projects_container {
+    padding-top: 60px;
+    margin-bottom: 50px;
+
+  .projects_title_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 60px;
+    }
+
+    .projects_background {
+        background-image: url("/assets/img/my-projects-background-image.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        max-width: 1920px;
+        width: 100%;
+
+        .card_wrapper {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 100px;
+
+            .card_content_wrapper {
+                .card_projects_link {
+                    color: #E9E9E9;
+                    text-decoration: none;
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .card_button_wrapper {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            padding-bottom: 30px;
+        }
+    }
+}    

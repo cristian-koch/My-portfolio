@@ -1,5 +1,10 @@
 .header_container {
     background-color: #2E2F34;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 10;
 
     .header_wrapper {
         display: flex;
@@ -43,12 +48,16 @@
 
                     .menu_desktop_link {
                         color: #E9E9E9;
-                        font-size: 14px;
+                        font-size: 16px;
                         padding: 10px 0;
                         text-decoration: none;
                     }
                 }
             }
+        }
+
+        .logo_image_wrapper:hover {
+            opacity: .8;
         }
     }
 }
